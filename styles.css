@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+
+body{
+    background: mediumpurple;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-family: 'Orbitron';
+    padding: 10px;
+}
+
+h1{
+    font-size: 20px;
+}
+.userinput{
+    font-size: 20px;
+    }
+
+.userresult{
+    font-size: 30px;
+}
+
+.calcoutput{
+    background: coral;
+    height: 100px;
+    width: 216px;
+}
+.wrapper{
+    padding: 5px;
+    background: lightgrey;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.coolcalc{ 
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    background: gold;
+    padding: 20px;
+    width: 200px;
+}
+
+.cal-action button{
+    background: plum;
+}
+
+ul.numbers{
+       list-style-type: none;
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: flex-start;
+       align-items: flex-start;
+}
+
+
+button{
+    background: darkviolet;
+    cursor: pointer;
+    font-size: 30px;
+    width: 72px;
+    padding:15px;
+    font-family: 'Orbitron'
+}
+
+.cal-result button{
+    background: yellow;
+}

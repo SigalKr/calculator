@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang=en>
+    <head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    </head>
+     
+    <body>
+        <div class="wrapper"> 
+               <h1>The Real Calculator</h1>
+             <div class="calcoutput">  
+            <h2 class="userinput">11+1</h2>
+            <h3 class="userresult">=12</h3></div>
+        <ul class="numbers">     
+            <li class="numbers num-1"><button onclick="numbutton('1')">1</button></li>
+            <li class="numbers num-2"><button onclick="numbutton('2')">2</button></li>
+            <li class="numbers num-3"><button onclick="numbutton('3')">3</button></li>
+            <li class="numbers num-4"><button onclick="numbutton('4')">4</button></li>
+            <li class="numbers num-5"><button onclick="numbutton('5')">5</button></li>
+            <li class="numbers num-6"><button onclick="numbutton('6')">6</button></li>
+            <li class="numbers num-7"><button onclick="numbutton('7')">7</button></li>
+            <li class="numbers num-8"><button onclick="numbutton('8')">8</button></li>
+            <li class="numbers num-9"><button onclick="numbutton('9')">9</button></li>
+            <li class="numbers num-10"><button onclick="numbutton('0')">0</button></li>
+            <li class="numbers num-."><button onclick="numbutton('.')">.</button></li>
+            <li class="numbers cal-action plus"><button onclick="numbutton('+')">+</button></li>
+            <li class="numbers cal-action minus"><button onclick="numbutton('-')">-</button></li>
+            <li class="numbers cal-action multiply"><button onclick="numbutton('*')">*</button></li>
+            <li class="numbers cal-action divide"><button onclick="numbutton('/')">/</button></li>
+            <li class="numbers cal-result"><button onclick="numbutton('=')">=</button></li>
+            <li class="numbers cal-action"><button onclick="numbutton('?')">?</button></li>
+            <li class="numbers cal-action"><button onclick="numbutton('C')">C</button></li>
+            </ul>
+        </div>
+<div class="coolcalc">
+     <h1>The Cool Calculator</h1>
+        <input class="input1">First Number</input>
+         <input class="input2">Second Number</input>
+             <select onchange="action(this.value)">
+             <option value=" ">Select an action to calculate</option>    
+             <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+            </select> 
+            </div> 
+        <script src="main.js"></script>
+    </body>
+</html>
